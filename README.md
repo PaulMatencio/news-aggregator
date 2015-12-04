@@ -1,3 +1,18 @@
+##  This solution is not the solution provided by  Cameron [GitHub](https://github.com/udacity/news-aggregator/tree/solution)
+###  I had a lot of fun doing this exercise
+
+* Following issues should be fixed.
+  	* Layout trashing
+  	* unnecessaary layouts are elinated ( detail section)
+  	* Long running and badly-timed  should be fixed
+  	* Unecessary codes are removed
+  	* Expensive painting (not totally fixed yet)
+
+* Following files were modified
+  	*  styles/app.css
+  	*  scripts/app.js
+
+
 # Udacity 60fps Course Samples
 
 **Please note: this code is intended for you to hone your debugging skills. It contains a lot of code that you should not use in production!**

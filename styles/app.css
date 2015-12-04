@@ -95,7 +95,9 @@ a {
 body.details-active .story__title,
 body.details-active .story__by,
 body.details-active .story__score {
-  transition: opacity 0.5s ease-out;
+
+  /* transition: opacity 0.5s ease-out; */
+  transition: opacity;
   opacity: 0 !important;
 }
 
@@ -150,7 +152,8 @@ main.loading {
   position: relative;
   min-height: 90px;
   cursor: pointer;
-  transition: all 0.4s ease-out;
+  /* transition: all 0.4s ease-out; */
+  transition: all;
 }
 
 .story:after {
@@ -186,8 +189,8 @@ main.loading {
 
 .story__score {
   position: absolute;
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 50px;
   background: #FFB300;
   border-radius: 50%;
   color: rgba(255,255,255,0.87);
@@ -238,7 +241,8 @@ main.loading {
       0px 2px 7px 0px rgba(0, 0, 0, 0.10);
 
   overflow: hidden;
-  transition: opacity 0.3s ease-out;
+  /* transition: opacity 0.3s ease-out; */
+  transition: opacity;
 }
 
 .story-details * {
